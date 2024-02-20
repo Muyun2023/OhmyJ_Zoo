@@ -20,10 +20,10 @@ Each page will have a `<title>` element that names the page.
   - Exception: Each page might have an `<h1>` element that matches the name of the site.  If so, the `<h1>` will not change per page, and instead there will be an `<h2>` element that will match the `<title>` and change per page.
 
 The page may contain links to pages that do not exist
-- Example: you can have a link to a privacy policy page that does not exist
+- Example:  have a link to a privacy policy page that does not exist
 
 Every link should use a filename that could exist
-- Example: you can link to a non-existent "privacy.html", but you should not have multiple links to "/fake" or "fake.html", because "fake" does not say what the page would be
+- Example:  link to a non-existent "privacy.html", but you should not have multiple links to "/fake" or "fake.html", because "fake" does not say what the page would be
 
 ## Header/Footer
 
