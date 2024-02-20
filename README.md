@@ -12,7 +12,7 @@ The website will consist of these pages (created inside the `public/` directory)
 - `index.html` ( a "Homepage")
 - `about.html` ( an "About" page )
 - `register.html` (a Registration page to register any data you choose to meet the form requirement)
-- 
+
 Each page will consist of a `<header>`, `<main>` and `<footer>` that are semantically correct.  You may include other elements in/around these (for example, a `<div>` might contain one or all of the above elements) as long as these elements are used in a semantically correct way (those elements must contain content that matches the meaning of the element type - see the element's definitions on MDN if you are uncertain as to what a given element should contain).
 
 Each page will have a `<title>` element that names the page. 
