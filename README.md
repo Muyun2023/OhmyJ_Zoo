@@ -1,26 +1,18 @@
-# Project 1: Multi-page Website
-
-**Due Thu Oct 12, 11:59pm PT**
-
 ## Goal
 
-You will create a website made of several HTML pages and related CSS to demonstrate the skills learned in class so far.
-
-The website will be about an animal of your choice (real or not, but make sure you will be able to get any images needed following the restrictions in this README!)
-
+Multi-page Websitea made of several HTML pages and related CSS to demonstrate follow skills
+The website will be animals zoo
 This webpage can be viewed and used by running:
 - `npm install` (only required once on any given computer)
 - `node server.js` (starts the server, Ctrl-C to stop running the server)
 - Visiting `http://localhost:3000/` in the browser
 
-## Functional Requirements
-
+## Functional 
 The website will consist of these pages (created inside the `public/` directory):
-
 - `index.html` ( a "Homepage")
 - `about.html` ( an "About" page )
 - `register.html` (a Registration page to register any data you choose to meet the form requirement)
-
+- 
 Each page will consist of a `<header>`, `<main>` and `<footer>` that are semantically correct.  You may include other elements in/around these (for example, a `<div>` might contain one or all of the above elements) as long as these elements are used in a semantically correct way (those elements must contain content that matches the meaning of the element type - see the element's definitions on MDN if you are uncertain as to what a given element should contain).
 
 Each page will have a `<title>` element that names the page. 
@@ -33,7 +25,7 @@ The page may contain links to pages that do not exist
 Every link should use a filename that could exist
 - Example: you can link to a non-existent "privacy.html", but you should not have multiple links to "/fake" or "fake.html", because "fake" does not say what the page would be
 
-## Header/Footer Requirements
+## Header/Footer
 
 - The visual header/footer for each page is identical
   - Hint: There is no way to automatically do this with just HTML, so you will have repeated content in each HTML file
@@ -44,37 +36,35 @@ Every link should use a filename that could exist
   - The logo image will be a link to the home page
   - The logo image will have an alt attribute that describes the image
 
-## Navigation requirements
+## Navigation
 - The page will include a `<nav>` that includes links to each of these pages: 
   - "Home"
   - "About"
   - "Register"
 - The navigation is wherever in your HTML structure you want, but should appear on every page
   - Example: The navigation may be inside the `<header>` or it may not be, either is acceptable
-- You may choose different text for the links
+- choose different text for the links
   - They must link to those pages
   - The text you use must make it clear that they link to those pages
     - Example: "About Us" or "About Dragons" are fine, but "Ponder the Inscrutable" is not clear that it takes you to the about page
-- You may link to the pages with absolute or relative paths, your choice
-  - You must NOT use fully qualified URLs in these links (Example no mention of "localhost")
+- link to the pages with absolute or relative paths
+  - NOT use fully qualified URLs in these links (Example no mention of "localhost")
 
 The navigation must be shown in at least one of the following ways:
 - A horizonal menu with dropdowns
 - A vertical menu that does slide-in/slide-out
 
 For clarity:
-* You will have a nav
+* have a nav
 * The nav will have at least one dropdown/slide-in
 * Somewhere inside the navigation you have the three listed options(and possibly more)
+as main menu options or as submenu options, but all three of the listed pages must be reachable via the navigation
 
-You can decide where those listed options appear - as main menu options or as submenu options, but all three of the listed pages must be reachable via the navigation
-
-## Content Requirements
+## Content 
 
 ### Homepage Contents
 
 The home page will include at least 3 UI Cards. 
-
 Each card will contain at least:
   - A visible and semantic heading title
     - Hint: Remember not to skip numbers in h1-h6 elements!
@@ -85,13 +75,12 @@ Each card will have at least one of:
   - A image that makes the card visually unique from the other cards
 
 The links in the cards to not need to link to actual pages
-
 The Home Page should make it obvious what Animal the site is about
 
 ### About Contents
 
 The About page will include at least 3 paragraphs of text that each contain at least 3 sentences.  
-At least 1 sentence must be real text saying in more detail what animal the site is about and something about that animal. The remaining text may be lorem-ipsum like text.
+At least 1 sentence be real text saying in more detail what animal the site is about and something about that animal. The remaining text may be lorem-ipsum like text.
 
 ### Registration Contents
 
@@ -105,7 +94,7 @@ The form will ask for (at minimum):
 - one piece of info using a checkbox
 - one piece of info using a dropdown
 
-You should use 1 or 2 column layout (your choice)
+use 1 or 2 column layout (your choice)
 - Remember: the columns used to describe a form layout refer to if the form labels are above/below the fields or next to the fields, NOT how many columns of fields are shown to the user
 - The form must be usable at the required viewport sizes, but there is no specific requirement for adaptive behavior of the form
 
@@ -114,7 +103,7 @@ At least 1 field is required and should be visibly marked as required
 
 The page/form should make it clear what information it is requesting
 
-## Responsive/Adaptive Requirements
+## Responsive/Adaptive
 
 The page is primarily laid out according to a 12-column grid
 - Exceptions are allowed (example: a horizontal menu bar), but the page should mostly align to the 12 column grid with no exceptions that take up significant space
@@ -124,7 +113,7 @@ The page must be pleasant to read from 360px and up (at standard font-size), wit
 - You may contain the page contents with expanding gutters, but the page should show responsive behavior (wrapping text) until 1000px
 - There must be at least one adaptive breakpoint (exact size is your choice) on at least one page
 - Adaptive breakpoints should use rem as their unit
-- You must have text/boxes that are easily seen to be responsive (wrapping text as the browser resizes)
+- have text/boxes that are easily seen to be responsive (wrapping text as the browser resizes)
 
 ## Accessibility Requirements
 
@@ -138,9 +127,7 @@ The page must be pleasant to read from 360px and up (at standard font-size), wit
 - Any icons are not required to understand and use the page with a screen reader
 - This means there must be text to explain what happens, icons can only add to the experience, not be the only means to understand it
 
-## Demonstrated Skills Requirements
-
-These are skills that I/TA(s) must be able to confirm you have an understanding of based only on seeing you use the skills in the HTML/CSS
+## Demonstrated Skills 
 - Semantic HTML
 - Semantic Class names
 - CSS Grid
@@ -151,38 +138,21 @@ These are skills that I/TA(s) must be able to confirm you have an understanding 
 - Adaptive HTML
 - HTML Forms
 
-## Extra Credit
+## Extra
 
-Extra credit points should be worked on only after fulfilling all the other requirements, because the other requirements are more points.
 - Use of colors and borders to create distinct visual areas
 - Strong use of whitespace and line-height to create clear, readable text
 - Additional page content to provide context and ways to expand the site in the future
-
-## Additional Requirements
-- Follow the best practices from the course
-- Do not use any Javascript (JS) (soon!)
-- Do not use float unless wrapping text around an image
-- Do not use tables or table-layouts unless showing a table of data
-- Do not use iframes or otherwise load external content except as explicitly allowed/directed by this README
-- I/TA(s) must be able to examine and evaluate your understanding of the course lessons
-  - Meaning: We have to be able to look at your HTML/CSS and be able to tell if you have learned the lessons based one what we read
-- Do not use any CSS preprocessor (SASS/Less/etc)
-- Do not use external CSS
-  - Exception: You may use icons from css.gg by copying the CSS snippet(s) into your own css file
-    - You MUST include a comment in your CSS saying "below CSS adapted from https://css.gg under the MIT License"
-    - You MAY modify/adapt/rename the CSS from css.gg.  The comment will still apply
-- Any images must be ones you personally own or from `http://unsplash.com`  
-  - Include an `images.txt` file in your project directory (at the same level as package.json, not in `public/`) and list the unsplash.com url of each image you downloaded from unsplash
-  - For any images that you personally own and used, list (in `images.txt`) the filename of that image as you have it in this project. We can recognize which images are yours and which were downloaded from unsplash by looking at the images and this `images.txt`.
-  - Do NOT download and use random images from the internet/web.  Only your own images or from unsplash.
-
-## Submission Instructions
-
-* Start from the up-to-date main branch (`git checkout main; git pull origin main`)
-* Create a feature branch named 'project1' (`git checkout -b project1`)
-* Add the necessary files to have the required features
-  - running `npm install` will create a `package-lock.json` file and a `node_modules` directory.  These should NOT be added to your commit.
-* Add, commit, and push the branch to github
-* Create a PR to merge to main
-* Be sure to include the TA(s) and myself reviewer(s)
+- not use any Javascript (JS) 
+- not use float unless wrapping text around an image
+- not use tables or table-layouts unless showing a table of data
+- not use any CSS preprocessor (SASS/Less/etc)
+- not use external CSS
+  - Exception: use icons from css.gg by copying the CSS snippet(s) into your own css file
+    - include a comment in your CSS saying "below CSS adapted from https://css.gg under the MIT License"
+    - modify/adapt/rename the CSS from css.gg.  The comment will still apply
+- Any images must be ones personally own or from `http://unsplash.com`  
+  - Include an `images.txt` file in project directory (at the same level as package.json, not in `public/`) and list the unsplash.com url of each image downloaded from unsplash
+  - For any images that you personally own and used, list (in `images.txt`) the filename of that image as have it in this project. We can recognize which images are yours and which were downloaded from unsplash by looking at the images and this `images.txt`.
+  - NOT download and use random images from the internet/web.  Only your own images or from unsplash.
 
