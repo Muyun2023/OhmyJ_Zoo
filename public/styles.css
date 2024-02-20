@@ -1,0 +1,236 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*The styles for the common header/footer*/
+header, footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    position: relative;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style three logo image */
+header a img.logo-index {
+    max-width: 10%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+header a img.logo-about {
+    max-width: 8%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+header a img.logo-register {
+    max-width: 8%;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+
+/* Add visual distinction between the header/footer and main content */
+main {
+    padding: 20px;
+}
+
+/* Navigation menu styles for desktop view */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; 
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: #555; 
+}
+
+
+/* Home page UI card style setting */
+.ui-card {
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    grid-column: span 1;
+}
+
+.ui-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+main h1 {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.ui-card h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.ui-card a {
+    text-decoration: none;
+    background-color: #333; 
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Home page Img style setting*/
+main div img.orangeCat{
+    max-width: 200px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+main div img.whiteCat{
+    max-width: 360px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+main div img.bicolorCat{
+    max-width: 155px;
+    height: auto;
+    display:block;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px; /* Maximum width for the content area */
+    margin: 0 auto; /* Center the content */
+    padding: 0 15px; /* Add gutters to the content area */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* 12 columns */
+    gap: 20px; /* Define gutter width */
+}
+
+.col-1 { grid-column: span 1; }
+.col-2 { grid-column: span 2; }
+.col-3 { grid-column: span 3; }
+
+/* Ensure the main content area uses the 12-column grid */
+main {
+    grid-column: span 12;
+}
+
+/* Define responsive behavior */
+@media screen and (max-width: 1000px) {
+/* Example adaptive breakpoint at 1000px */
+.container {
+    grid-template-columns: repeat(1, 1fr); /* Reset to single column layout */
+    padding: 0 20px; /* Wider gutters for better readability */
+}
+    
+/* Make sure the main content area uses the full width */
+main {
+    grid-column: span 1;
+}
+
+.ui-card {
+    grid-column: span 1;
+}
+}
+
+.cta-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Apply styles only to the about.html page container */
+.about-container {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.about-content {
+    max-width: 1000px; /* Adjust the maximum width to your preference */
+    margin: 0 auto; /* Center-align the content */
+}
+
+.about-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
