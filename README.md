@@ -156,3 +156,5 @@ The page must be pleasant to read from 360px and up (at standard font-size), wit
   - For any images that you personally own and used, list (in `images.txt`) the filename of that image as have it in this project. We can recognize which images are yours and which were downloaded from unsplash by looking at the images and this `images.txt`.
   - NOT download and use random images from the internet/web.  Only your own images or from unsplash.
 
+ © Muyun Ji. Confidential and Proprietary. All Rights Reserved.
+
